@@ -1,7 +1,6 @@
 # Chat with PDFs using LLMs - Beta
 
 ## Overview
-
 This is a simple web-based chat application built using **Streamlit** and **Langchain**. The app backend follows the **Retrieval Augmented Generation (RAG)** framework.
 
 The app allows users to provide a list of PDFs and ask questions that are answered by these documents. The system uses OpenAI's GPT for querying the PDFs and retrieving the most relevant information.
