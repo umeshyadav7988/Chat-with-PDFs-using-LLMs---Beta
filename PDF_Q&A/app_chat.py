@@ -5,7 +5,6 @@ from langchain_utils import initialize_chat_conversation
 from search_indexing import download_and_index_pdf
 import re
 
-
 def remove_url(url_to_remove):
     if url_to_remove in st.session_state.urls:
         st.session_state.urls.remove(url_to_remove)
